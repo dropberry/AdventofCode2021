@@ -59,7 +59,7 @@ public class aoc4p2 {
 	//read bingo fields in 5x5 arrays, each bingo field is added to ArrayList
 		private static ArrayList<String[][]> readFileValues() throws NumberFormatException, IOException {
 			ArrayList<String[][]> fields = new ArrayList<String[][]>();
-	    	File file = new File("C:\\Users\\Lea\\Downloads\\test.txt");
+	    	File file = new File("PATH_TO_FILE");
 			BufferedReader br = new BufferedReader(new FileReader(file));
 	        String line = "";
 	        String[][] singleField = new String[5][5]; //represents single bingo fields
