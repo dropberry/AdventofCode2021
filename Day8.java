@@ -190,7 +190,7 @@ public class aoc8 {
 	// reads initial segments from file in List of Arrays
 	private static ArrayList<String[]> readFileValues() throws NumberFormatException, IOException {
 		ArrayList<String[]> segment = new ArrayList<String[]>();
-		File file = new File("C:\\Users\\Lea\\Downloads\\test.txt");
+		File file = new File("PATH_TO_FILE");
 		BufferedReader br = new BufferedReader(new FileReader(file));
 		String line = "";
 		while ((line = br.readLine()) != null) {
