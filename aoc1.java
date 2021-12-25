@@ -4,9 +4,7 @@ import java.io.*;
 import java.util.ArrayList;
 import java.util.List;
 
-/* every method is static because it's used by main, usually those methods would be in another class but 
- * are kept in one class here for readability
- */
+//every method is static because it's used by main, usually those methods would be in another class but are kept in one class here for readability
 public class aoc1 {
 
 	public static void main(String[] args) throws IOException {
@@ -43,7 +41,7 @@ public class aoc1 {
 	}
 	
 	private static int[] readFileValues() throws IOException {
-		File file = new File("C:\\Users\\Lea\\Downloads\\test.txt");
+		File file = new File("PATH_TO_FILE");
 		List<String> lines = new ArrayList<String>();
 		BufferedReader br = new BufferedReader(new FileReader(file)); //creates buffering input character stream
 	    String values = "";
