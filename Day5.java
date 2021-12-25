@@ -96,7 +96,7 @@ public class aoc5 {
 	//reads coordinates from files
 	private static ArrayList<Integer[]> ArrayListFromTextFile() throws NumberFormatException, IOException {
 		ArrayList<Integer[]> ventlines = new ArrayList<Integer[]>();
-		File file = new File("C:\\Users\\Lea\\Downloads\\test.txt");
+		File file = new File("PATH_TO_FILE");
 		BufferedReader br = new BufferedReader(new FileReader(file));
 		String line = "";
 
