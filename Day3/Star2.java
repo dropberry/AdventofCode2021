@@ -77,7 +77,7 @@ public class aoc3p2 {
 	
 	//reads input of files as a list of strings
 	private static List<String> readFileValues() throws IOException { 
-		File file = new File("C:\\Users\\Lea\\Downloads\\test.txt");
+		File file = new File("PATH_TO_FILE");
 		List<String> lines = new ArrayList<String>();
 		BufferedReader br = new BufferedReader(new FileReader(file)); //creates buffering input character stream
 	    String values = "";
