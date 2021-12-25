@@ -57,7 +57,7 @@ public class aoc7 {
 
 	// reads initial list from file
 	private static ArrayList<Integer> readFileValues() throws IOException {
-		File file = new File("C:\\Users\\Lea\\Downloads\\test.txt");
+		File file = new File("PATH_TO_FILE");
 		ArrayList<Integer> lines = new ArrayList<Integer>();
 		BufferedReader br = new BufferedReader(new FileReader(file)); // creates buffering input character stream
 		String values = "";
