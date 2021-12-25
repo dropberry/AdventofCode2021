@@ -5,9 +5,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
 
-/* every method is static because it's used by main, usually those methods would be in another class but 
- * are kept in one class here for readability
- */
+//every method is static because it's used by main, usually those methods would be in another class but are kept in one class here for readability
 public class aoc2 {
 
 	public static void main(String[] args) throws NumberFormatException, IOException {
@@ -77,7 +75,7 @@ public class aoc2 {
 		course.put("forward", 0);
 		course.put("up", 0);
 		course.put("down", 0);
-    	File file = new File("C:\\Users\\Lea\\Downloads\\test.txt");
+    	File file = new File("PATH_TO_FILE");
 		BufferedReader br = new BufferedReader(new FileReader(file));
         String line = "";
   
